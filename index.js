@@ -8,7 +8,7 @@ class HttpTest extends Component{
   render(){
       return(
         <View>
-            <Text>Hi</Text>
+            <Text>Working POST</Text>
             <Button
             title ='pressMe'
             onPress = { ()=>{
