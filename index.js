@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { View, Text, AppRegistry, Button } from 'react-native';
-import { RegisterUser } from './src/components/RegisterUser';
+import { RegisterUser } from './src/components/server/RegisterUser';
 
 
 class HttpTest extends Component{
@@ -14,7 +14,7 @@ class HttpTest extends Component{
             onPress = { ()=>{
                 const user = {
                       fullname: 'ravi karunanayake',
-                      username: 'TestfromApp3',
+                      username: 'TestfromApp7',
                       email: 'rk@gmail',
                       phoneno: '077522',
                       password: '1234'
